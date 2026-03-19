@@ -962,7 +962,7 @@
       <h1 data-i18n-html="heroTitle"></h1>
       <p class="hero-desc" data-i18n="heroDesc"></p>
       <div class="hero-actions">
-        <a href="#pricing" class="btn-primary" data-i18n="heroBtn1"></a>
+        <a href="https://panel.veiloapp.net" class="btn-primary" data-i18n="heroBtn1"></a>
         <a href="#how" class="btn-secondary" data-i18n="heroBtn2"></a>
       </div>
     </div>
@@ -1137,7 +1137,7 @@
   <div class="cta-inner">
     <h2 data-i18n-html="ctaTitle"></h2>
     <p class="cta-desc" data-i18n="ctaDesc"></p>
-    <a href="#pricing" class="btn-primary" style="font-size:1.05rem;padding:1.1rem 2.5rem" data-i18n="ctaBtn"></a>
+    <a href="https://panel.veiloapp.net" class="btn-primary" style="font-size:1.05rem;padding:1.1rem 2.5rem" data-i18n="ctaBtn"></a>
   </div>
 </section>
 
@@ -1164,6 +1164,9 @@ const LANGS = {
   de:{name:"Deutsch",flag:"🇩🇪",dir:"ltr"},
   ar:{name:"العربية",flag:"🇸🇦",dir:"rtl"},
   fr:{name:"Français",flag:"🇫🇷",dir:"ltr"},
+  es:{name:"Español",flag:"🇪🇸",dir:"ltr"},
+  ru:{name:"Русский",flag:"🇷🇺",dir:"ltr"},
+  zh:{name:"中文",flag:"🇨🇳",dir:"ltr"},
 };
 const T={
 tr:{
@@ -1345,6 +1348,114 @@ fr:{
   psch1:"Étudiants illimités",psch2:"Panneau enseignant",psch3:"Filtres conformes à l'éducation",psch4:"Gestion centralisée",psch5:"Accès API",
   ctaTitle:'La sécurité numérique<br>de votre enfant n\'attend pas.', ctaDesc:"Protégez votre foyer avec Veilo dès aujourd'hui. Installation en 5 minutes.", ctaBtn:"Commencer gratuitement →",
   footerRights:"Tous droits réservés.", footerPrivacy:"Politique de confidentialité", footerTerms:"Conditions d'utilisation", footerContact:"Contact",
+},
+es:{
+  navFeatures:"Características", navHow:"Cómo funciona", navPricing:"Precios", navCta:"Ir al Panel →",
+  heroBadge:"Motor de protección DNS activo",
+  heroTitle:'El escudo<br><span class="teal-word">digital de tu hogar.</span>',
+  heroDesc:"Protege a tus hijos del contenido dañino con un filtro DNS a nivel de router. Sin instalar aplicaciones — conecta y controla.",
+  heroBtn1:"Empezar Gratis", heroBtn2:"¿Cómo funciona?",
+  mockBlocked:"Sitios Bloqueados", mockToday:"Bloqueados Hoy", mockNight:"Modo Nocturno",
+  mockCatActive:"6 categorías activas", mockDown:"↓ 12% vs ayer", mockActive:"Activo",
+  mockBlockedMsg:"tiktok.com bloqueado", mockBlockedTime:"Hace 2 minutos",
+  fbDns:"DNS Activo", fbDnsSub:"Protección en tiempo real", fbNotif:"Notificación", fbNotifSub:"3 nuevos bloqueos",
+  trust1:"DNS cifrado de extremo a extremo", trust2:"<50ms tiempo de respuesta", trust3:"Sin instalación de apps", trust4:"Diseñado para familias globales",
+  problemTag:"Problema", problemTitle:'¿Sabes lo que hace tu hijo<br>en internet?',
+  problemDesc:"Family Link se puede eludir. Las VPN superan cualquier bloqueo. Las soluciones basadas en apps solo protegen un dispositivo. Veilo es diferente — funciona a nivel de red, controlando todos los dispositivos del hogar desde un solo punto.",
+  stat1:"de niños han accedido a contenido dañino", stat2:"Tiempo promedio diario de pantalla", stat3:"pueden evadir el control parental", stat4:"Edad del primer smartphone",
+  featuresTag:"Características", featuresTitle:'Protección a nivel de router,<br>gestión desde un solo panel.',
+  featuresDesc:"Veilo hace lo que Family Link no puede. Controla toda tu red doméstica desde un solo punto.",
+  f1Title:"Filtrado DNS", f1Desc:"Cambia el DNS del router, todos los dispositivos del hogar quedan protegidos automáticamente.",
+  f2Title:"Bloqueo por Categorías", f2Desc:"Redes sociales, juegos, apuestas, adultos — bloquea toda una categoría con un clic.",
+  f3Title:"Modo Nocturno", f3Desc:"Corta el internet en las horas que definas. Ideal para un sueño saludable.",
+  f4Title:"Informes Instantáneos", f4Desc:"¿Qué sitio fue bloqueado y cuándo? Logs detallados para total visibilidad.",
+  f5Title:"Reglas por Perfil", f5Desc:"Define reglas diferentes para cada hijo. Acceso apropiado según la edad.",
+  f6Title:"Actualización Inmediata", f6Desc:"Añade una regla desde el panel y se activa en segundos en todos los dispositivos.",
+  howTag:"Cómo Funciona", howTitle:"Instalación en tres pasos", howDesc:"No requiere conocimientos técnicos. Protege tu hogar en 5 minutos.",
+  step1Title:"Regístrate", step1Desc:"Crea una cuenta gratuita en Veilo y configura tu perfil familiar.",
+  step2Title:"Cambia el DNS del Router", step2Desc:"Redirige el DNS en la configuración de tu router al servidor de Veilo.",
+  step3Title:"Define las Reglas", step3Desc:"Bloquea sitios, activa el modo nocturno y monitorea los informes desde el panel.",
+  pricingTag:"Precios", pricingTitle:"Un plan para cada familia", pricingDesc:"Empieza gratis, actualiza cuando lo necesites.",
+  pFree:"Gratis", pFreeDesc:"Ideal para empezar", pFreePeriod:"Gratis para siempre", pFreeBtn:"Empezar Gratis",
+  pf1:"Protección DNS",pf2:"1 perfil infantil",pf3:"Modo nocturno",pf4:"Bloqueo de sitios",pf5:"Logs básicos",
+  pPopular:"MÁS POPULAR", pFamily:"Familia", pFamilyDesc:"Control total, toda la familia", pFamilyPeriod:"Pago anual €79/año", pFamilyBtn:"Empezar Ahora",
+  pfam1:"Dispositivos ilimitados",pfam2:"5 perfiles infantiles",pfam3:"Co-gestión (panel compartido)",pfam4:"Notificaciones instantáneas",pfam5:"Informes detallados",pfam6:"Soporte prioritario",
+  pSchool:"Escuela / Institución", pSchoolDesc:"Para instituciones educativas", pSchoolPeriod:"Facturación disponible", pSchoolBtn:"Contactar",
+  psch1:"Estudiantes ilimitados",psch2:"Panel de profesores",psch3:"Filtros educativos",psch4:"Gestión centralizada",psch5:"Acceso API",
+  ctaTitle:'La seguridad digital<br>de tu hijo no puede esperar.', ctaDesc:"Protege tu hogar con Veilo hoy. La instalación toma 5 minutos, empieza con el plan gratuito.", ctaBtn:"Empezar Gratis →",
+  footerRights:"Todos los derechos reservados.", footerPrivacy:"Política de Privacidad", footerTerms:"Términos de Servicio", footerContact:"Contacto",
+},
+ru:{
+  navFeatures:"Возможности", navHow:"Как это работает", navPricing:"Цены", navCta:"Панель управления →",
+  heroBadge:"DNS-защита активна",
+  heroTitle:'Цифровой щит<br><span class="teal-word">вашего дома.</span>',
+  heroDesc:"Защитите детей от вредного контента с помощью DNS-фильтра на уровне роутера. Не нужно устанавливать приложения — подключайтесь и управляйте.",
+  heroBtn1:"Начать бесплатно", heroBtn2:"Как это работает?",
+  mockBlocked:"Заблокировано", mockToday:"Сегодня", mockNight:"Ночной режим",
+  mockCatActive:"6 категорий активны", mockDown:"↓ 12% ко вчера", mockActive:"Активен",
+  mockBlockedMsg:"tiktok.com заблокирован", mockBlockedTime:"2 минуты назад",
+  fbDns:"DNS Активен", fbDnsSub:"Защита в реальном времени", fbNotif:"Уведомление", fbNotifSub:"3 новых блокировки",
+  trust1:"Сквозное шифрование DNS", trust2:"<50мс время отклика", trust3:"Без установки приложений", trust4:"Для семей по всему миру",
+  problemTag:"Проблема", problemTitle:'Вы знаете, что ваш ребёнок<br>делает в интернете?',
+  problemDesc:"Family Link можно обойти. VPN преодолевает любые блокировки. Приложения защищают только одно устройство. Veilo работает иначе — на уровне сети, контролируя все устройства дома из одной точки.",
+  stat1:"детей получали доступ к вредному контенту", stat2:"Среднее экранное время в день", stat3:"могут обойти родительский контроль", stat4:"Возраст первого смартфона",
+  featuresTag:"Возможности", featuresTitle:'Защита на уровне роутера,<br>управление из одной панели.',
+  featuresDesc:"Veilo делает то, что не может Family Link. Управляйте всей домашней сетью из одной точки.",
+  f1Title:"DNS-фильтрация", f1Desc:"Измените DNS роутера, и все устройства дома автоматически защищены.",
+  f2Title:"Блокировка по категориям", f2Desc:"Соцсети, игры, азартные сайты, для взрослых — заблокируйте всю категорию одним кликом.",
+  f3Title:"Ночной режим", f3Desc:"Отключите интернет в установленные часы. Идеально для здорового сна.",
+  f4Title:"Мгновенные отчёты", f4Desc:"Какой сайт заблокирован и когда? Подробные логи для полной видимости.",
+  f5Title:"Правила по профилям", f5Desc:"Задайте разные правила для каждого ребёнка. Доступ по возрасту.",
+  f6Title:"Мгновенное обновление", f6Desc:"Добавьте правило в панели — оно активируется на всех устройствах за секунды.",
+  howTag:"Как это работает", howTitle:"Установка в три шага", howDesc:"Не требует технических знаний. Защитите дом за 5 минут.",
+  step1Title:"Регистрация", step1Desc:"Зарегистрируйтесь бесплатно и создайте семейный профиль.",
+  step2Title:"Измените DNS роутера", step2Desc:"Перенаправьте DNS в настройках роутера на сервер Veilo.",
+  step3Title:"Настройте правила", step3Desc:"Блокируйте сайты, включите ночной режим и следите за отчётами.",
+  pricingTag:"Цены", pricingTitle:"План для каждой семьи", pricingDesc:"Начните бесплатно, обновляйте по мере необходимости.",
+  pFree:"Бесплатно", pFreeDesc:"Для начала", pFreePeriod:"Бесплатно навсегда", pFreeBtn:"Начать бесплатно",
+  pf1:"DNS-защита",pf2:"1 профиль ребёнка",pf3:"Ночной режим",pf4:"Блокировка сайтов",pf5:"Базовые логи",
+  pPopular:"ПОПУЛЯРНЫЙ", pFamily:"Семейный", pFamilyDesc:"Полный контроль для всей семьи", pFamilyPeriod:"Годовая оплата", pFamilyBtn:"Начать сейчас",
+  pfam1:"Неограниченно устройств",pfam2:"5 профилей детей",pfam3:"Совместное управление",pfam4:"Мгновенные уведомления",pfam5:"Подробные отчёты",pfam6:"Приоритетная поддержка",
+  pSchool:"Школа / Учреждение", pSchoolDesc:"Для образовательных учреждений", pSchoolPeriod:"Оплата по счёту", pSchoolBtn:"Связаться",
+  psch1:"Неограниченно учеников",psch2:"Панель учителя",psch3:"Образовательные фильтры",psch4:"Централизованное управление",psch5:"Доступ к API",
+  ctaTitle:'Цифровая безопасность<br>вашего ребёнка не ждёт.', ctaDesc:"Защитите дом с Veilo уже сегодня. Установка за 5 минут, начните с бесплатного плана.", ctaBtn:"Начать бесплатно →",
+  footerRights:"Все права защищены.", footerPrivacy:"Политика конфиденциальности", footerTerms:"Условия использования", footerContact:"Контакты",
+},
+zh:{
+  navFeatures:"功能", navHow:"如何使用", navPricing:"价格", navCta:"进入面板 →",
+  heroBadge:"DNS保护引擎已激活",
+  heroTitle:'您家庭的<br><span class="teal-word">数字盾牌。</span>',
+  heroDesc:"通过路由器级DNS过滤器保护您的孩子免受有害内容侵害。无需安装应用 — 连接即可控制。",
+  heroBtn1:"免费开始", heroBtn2:"如何使用？",
+  mockBlocked:"已屏蔽网站", mockToday:"今日屏蔽", mockNight:"夜间模式",
+  mockCatActive:"6个类别已激活", mockDown:"↓ 比昨天少12%", mockActive:"活跃",
+  mockBlockedMsg:"tiktok.com 已屏蔽", mockBlockedTime:"2分钟前",
+  fbDns:"DNS活跃", fbDnsSub:"实时保护", fbNotif:"通知", fbNotifSub:"3个新屏蔽",
+  trust1:"端到端加密DNS", trust2:"<50毫秒响应时间", trust3:"无需安装应用", trust4:"为全球家庭设计",
+  problemTag:"问题", problemTitle:'您知道孩子在网上<br>做什么吗？',
+  problemDesc:"Family Link可以被绕过。VPN可以突破所有封锁。基于应用的方案只能保护单一设备。Veilo不同 — 它在网络层面工作，从一个控制点保护家中所有设备。",
+  stat1:"的儿童接触过有害内容", stat2:"日均屏幕时间", stat3:"能绕过家长控制", stat4:"第一部智能手机的年龄",
+  featuresTag:"功能", featuresTitle:'路由器级保护，<br>单面板管理。',
+  featuresDesc:"Veilo做到了Family Link做不到的。从一个控制点管理整个家庭网络。",
+  f1Title:"DNS过滤", f1Desc:"更改路由器DNS，家中所有设备自动受到保护。",
+  f2Title:"分类屏蔽", f2Desc:"社交媒体、游戏、赌博、成人内容 — 一键屏蔽整个类别。",
+  f3Title:"夜间模式", f3Desc:"在设定时间段关闭互联网。有助于健康睡眠。",
+  f4Title:"即时报告", f4Desc:"哪个网站何时被屏蔽？详细日志提供完全可见性。",
+  f5Title:"按配置文件规则", f5Desc:"为每个孩子定义不同规则。按年龄提供适当访问。",
+  f6Title:"即时更新", f6Desc:"在面板中添加规则，几秒内在所有设备上生效。",
+  howTag:"如何使用", howTitle:"三步安装", howDesc:"无需技术知识。5分钟保护您的家。",
+  step1Title:"注册", step1Desc:"免费注册Veilo并创建家庭配置文件。",
+  step2Title:"更改路由器DNS", step2Desc:"在路由器设置中将DNS重定向到Veilo服务器。",
+  step3Title:"设置规则", step3Desc:"屏蔽网站、启用夜间模式并从面板监控报告。",
+  pricingTag:"价格", pricingTitle:"适合每个家庭的方案", pricingDesc:"免费开始，按需升级。",
+  pFree:"免费", pFreeDesc:"入门理想选择", pFreePeriod:"永久免费", pFreeBtn:"免费开始",
+  pf1:"DNS保护",pf2:"1个儿童配置",pf3:"夜间模式",pf4:"网站屏蔽",pf5:"基本日志",
+  pPopular:"最受欢迎", pFamily:"家庭", pFamilyDesc:"全面控制，全家适用", pFamilyPeriod:"年付", pFamilyBtn:"立即开始",
+  pfam1:"无限设备",pfam2:"5个儿童配置",pfam3:"共同管理",pfam4:"即时通知",pfam5:"详细报告",pfam6:"优先支持",
+  pSchool:"学校/机构", pSchoolDesc:"教育机构适用", pSchoolPeriod:"可开发票", pSchoolBtn:"联系我们",
+  psch1:"无限学生",psch2:"教师面板",psch3:"教育过滤器",psch4:"集中管理",psch5:"API访问",
+  ctaTitle:'孩子的数字安全<br>不能等待。', ctaDesc:"今天就用Veilo保护您的家。安装只需5分钟，从免费方案开始。", ctaBtn:"免费开始 →",
+  footerRights:"版权所有。", footerPrivacy:"隐私政策", footerTerms:"服务条款", footerContact:"联系我们",
 },
 };
 
